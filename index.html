@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Botoes com CSS</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+
+        .container-botom{
+           
+            text-align: center ;
+            width:calc(100% - 20px);
+            border:1px solid rgb(39, 36, 36) ;
+            padding: 9px;
+            font-size: 22px;
+            position:relative;
+            font-family: 'Cookie';
+            
+        }
+        body {
+            margin-left: 200px;
+            border:2px solid black ;
+            background-color: rgb(250, 239, 239);
+            margin-right: 200px;
+        }
+        .container-botom:focus {
+          background-color : black ;
+          font-family: sans-serif;
+        }
+        .container-text {
+            padding:40px;
+            background-color: rgb(23, 236, 16);
+            font-family: 'Cookie' , sans-serif;
+            height:100%;
+        }
+        .container-text h1 {
+            text-align: center ;
+            margin-top: -35px;
+            
+        }
+        .box {
+            padding-bottom:20px;
+            display: flex ;
+            padding:20px;
+            flex-direction: column;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="container-text">
+            <h1>Historia</h1>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error quas nostrum tempora ipsa, voluptas officia, nam quibusdam laudantium repellendus ut sit quos ipsam. Tenetur consequuntur, numquam nulla adipisci ea eius.</p>
+        
+        </div>
+        <div class="container-botom">Mostrar Mais</div>
+        
+    </div>
+
+ <script>
+
+    
+
+ </script>   
+</body>
+</html>
