@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+#search-movie {
+    width:400px;
+    padding:10px;
+    outline : none  ; 
+    border :none ;
+    box-shadow : 2px 4px 8px rgb(238, 234, 234);
+    font-size: 20px;
+    border-radius: 20px;
+    text-indent: 20px;
+    font-family: 'Anton' , sans-serif ; 
+    text-transform: uppercase;
+}
+.icons-material {
+    margin-left:-49px;
+    border-radius: 20px;
+    
+}
+.container-search {
+    display : flex ; 
+    justify-content: center;
+}
+h1 {
+    text-align:center  ;
+    font-size:50px;
+    font-family : 'Anton' , sans-serif ; 
+    text-transform: uppercase;
+    letter-spacing: 20px;
+}
+.btn-search {
+    border : none  ; 
+    background:none;
+   
+}
+.container-section {
+    background-color: rgb(44, 39, 39);
+    margin-left:50px;
+    margin-right:50px;
+    margin-top:50px;
+    padding:20px;
+    display : flex ;
+    flex-wrap: wrap;
+    border-radius: 20px;
+    
+}
+.container-section img {
+    height:200px;
+    width:100%;
+    margin-right:13px;
+
+}
+.container-card {
+    display : flex ;
+    flex-wrap: wrap;
+}
+.movie {
+    background-color : rgb(206, 8, 8) ; 
+    margin-left:12px;
+    margin-bottom:20px;
+    text-align: center ;
+    font-family: 'Anton';
+    font-size: 16px;
+    margin-top:20px;
+    border-radius: 7px;
+}
+h2 {
+    margin-top:50px;
+    text-align: center ;
+    font-family : 'Anton ';
+    text-transform: uppercase ; 
+    font-weight: 100;
+}
+.movie a {
+    text-decoration: none ;
+    color : rgb(255, 255, 255) ; 
+    background-color : blue ;
+    padding:5px;
+    border-radius:6px;
+}
+.movie-description {
+    margin-top:-150px;
+    padding:8px;
+    font-size: 20px;
+    width:200px;
+    font-family: 'Anton' , 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.search-result a {
+    text-decoration: none ; 
+    padding:20px;
+    
+}
+.search-result img {
+    margin-top:20px;
+    margin-left:10px;
+    border-radius : 10px;
+    height:200px;
+    width:200px;
+}
+.movie-btn {
+    text-decoration: none ; 
+    color : white ;
+    font-family: 'Anton';
+    text-align: center;
+    background-color : blue ;
+    margin:20px;
+    padding:9px;
+    border-radius : 10px;
+}
+.btn-search :hover {
+    
+    opacity: 0.1;
+}
+.search-result {
+    position : absolute;
+    top:120px;
+    display : flex ; 
+    flex-direction: column;
+    margin-bottom:200px;
+    width:500px;
+    background-color : rgb(26, 26, 27) ;
+    justify-content: center;
+    
+}
